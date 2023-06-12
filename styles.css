@@ -16,13 +16,22 @@ body {
 .nav-change {
   font-weight: bolder;
   background-color: rgba(0, 0, 0, 0.8);
+  font-size: small;
 }
-
+.drop-label:hover {
+  color: gray;
+}
+.dropdown-item:hover {
+  background-color: rgb(80, 80, 80, 0.3);
+}
+.dropdown-item {
+  font-size: medium;
+}
 .nav-link-change {
   color: white;
 }
 .nav-link-change:hover {
-  color: lightgrey;
+  color: grey;
 }
 .card-change {
   width: 23rem;
@@ -46,6 +55,9 @@ h2 {
   width: 2rem;
   height: 2rem;
   padding: 3px;
+}
+.video-card {
+  text-align: left;
 }
 .hr-width {
   width: 9rem;
@@ -85,7 +97,13 @@ h2 {
   text-align: center;
   margin-top: 1rem;
   font-weight: bold;
+  font-size: small;
 }
+small {
+  text-align: left;
+  font-size: x-small;
+}
+
 .vp-title-1 {
   color: grey;
   text-align: center;
@@ -100,7 +118,13 @@ h2 {
   font-weight: bold;
   text-align: left;
 }
-
+.vp-line {
+  height: 2px;
+  background-color: white;
+}
+.card-img-top {
+  border-bottom: 2px solid white;
+}
 /* app banner */
 .banner {
   padding-left: 7%;
@@ -111,9 +135,6 @@ h4 {
   font-weight: bold;
 }
 .headings {
-  text-align: left;
-}
-.video-card {
   text-align: left;
 }
 
@@ -160,4 +181,7 @@ footer {
 
 .footer-link i {
   font-size: 24px;
+}
+.c-cards {
+  padding-top: 50px;
 }

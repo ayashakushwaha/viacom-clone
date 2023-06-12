@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Viacom</title>
+    <link rel="icon" type="image/x-icon" href="images/Viacom-card-logo.png" />
     <!-- google fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,900&family=Ubuntu:ital@1&display=swap"
@@ -71,13 +72,14 @@
               <div class="btn-group">
                 <button
                   type="button"
-                  class="btn text-light dropdown-toggle"
+                  class="btn text-light dropdown-toggle btn-sm btn-outline-dark"
+                  id="dropdownMenuButton1"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <strong>Video Services</strong>
+                  <strong class="drop-label">Video Services</strong>
                 </button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li>
                     <a class="dropdown-item" href="#"
                       >Curated Video Marketplace</a
@@ -90,7 +92,7 @@
                   </li>
                   <li>
                     <a class="dropdown-item" href="#"
-                      >Differentiated Industry Video Content</a
+                      >Differentiated Industry Video <br />Content</a
                     >
                   </li>
                   <li><hr class="dropdown-divider" /></li>
@@ -123,17 +125,17 @@
               <div class="btn-group">
                 <button
                   type="button"
-                  class="btn text-light dropdown-toggle"
+                  class="btn text-light dropdown-toggle btn-sm btn-outline-dark"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <strong>About</strong>
+                  <strong class="drop-label">About</strong>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">About Us</a></li>
-                  <li><a class="dropdown-item" href="#">Our Work</a></li>
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li><a class="dropdown-item" href="#">Our team</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Our team</a>
+                    <a class="dropdown-item" href="#">Our work</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">Blogs</a>
@@ -141,13 +143,21 @@
                   <li>
                     <a class="dropdown-item" href="#">Success Stories</a>
                   </li>
-
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">VI network</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Agencies</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Career</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
                 </ul>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-change" href="#cta">Contact Us</a>
+              <a class="nav-link nav-link-change" href="#cta">Contact us</a>
             </li>
           </ul>
         </div>
@@ -207,8 +217,7 @@
 
     <section id="features">
       <br />
-      <br />
-      <br />
+
       <h4>At Viacom India ,we convince people with stories.</h4>
       <br />
       <br />
@@ -255,25 +264,22 @@
             alt="viacom brand image"
           />
         </div>
-        <div class="col me-auto">
+        <div class="col">
           <img
             class="feature-img"
             src="images/f7.png"
             alt="viacom brand image"
           />
         </div>
-      </div>
-      <br />
 
-      <div class="row justify-content-md-center sec-2-icons margin-features">
-        <div class="col-lg-2">
+        <div class="col">
           <img
             class="feature-img"
             src="images/f8.png"
             alt="viacom brand image"
           />
         </div>
-        <div class="col-lg-2">
+        <div class="col me-auto">
           <img
             class="feature-img"
             src="images/f9.png"
@@ -286,8 +292,6 @@
     <!-- c cards -->
 
     <div class="c-cards container mx-auto">
-      <br />
-      <br />
       <div class="headings col-md-6 col-sm-12">
         <h4>Curated Video Marketplace</h4>
         <p>
@@ -297,46 +301,39 @@
         </p>
       </div>
 
-      <div class="row row-cols-2 justify-content-center">
+      <div class="row row-cols-2 justify-content-center text-start">
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img src="images/c1.jpeg" class="card-img-top" alt="viacom image" />
-          </div>
+          <img src="images/c1.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Brand Video</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img src="images/c2.jpeg" class="card-img-top" alt="viacom image" />
-          </div>
+          <img src="images/c2.jpeg" class="card-img-top" alt="viacom image" />
           <h6 class="video-card-bottom">Corporate Video</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img src="images/c3.jpeg" class="card-img-top" alt="viacom image" />
-          </div>
+          <img src="images/c3.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Advertising</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img src="images/c4.jpeg" class="card-img-top" alt="viacom image" />
-          </div>
+          <img src="images/c4.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Digital Media Ads</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img src="images/c5.jpeg" class="card-img-top" alt="viacom image" />
-          </div>
+          <img src="images/c5.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Product Video</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img src="images/c6.jpeg" class="card-img-top" alt="viacom image" />
-          </div>
+          <img src="images/c6.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Story Video</h6>
           <small>Know more</small>
         </div>
@@ -371,70 +368,40 @@
       </div>
       <br />
 
-      <div class="row row-cols-2 justify-content-center">
+      <div class="row row-cols-2 justify-content-center text-start">
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/ci1.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/ci1.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Real Estate</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/ci2.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/ci2.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Healthcare</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/ci3.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/ci3.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Travel, Tourism & Hospitality</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/ci4.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/ci4.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Food Processing & Horeca</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/ci5.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/ci5.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">FMCG/CPG</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/ci6.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/ci6.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Manufacturing</h6>
           <small>Know more</small>
         </div>
@@ -472,70 +439,40 @@
 
       <br />
 
-      <div class="row row-cols-2 justify-content-center">
+      <div class="row row-cols-2 justify-content-center text-start">
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/di1.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/di1.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Automobile</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/di2.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/di2.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Home Appliances Industry</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/di3.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/di3.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Software & Technology Industry</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/di4.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/di4.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Warehouse & Logistics</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/di5.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/di5.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Electrical & Electronics Industry</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/di6.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/di6.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Pharmaceuticals Industry</h6>
           <small>Know more</small>
         </div>
@@ -573,18 +510,18 @@
 
       <br />
 
-      <div class="row justify-content-center">
+      <div class="row justify-content-between g-2">
         <div class="col-lg-2 col-sm-6 video-card">
-          <div class="card h-100" id="">
+          <div class="card h-100 bg-dark" id="">
             <img
               src="images/vp1.jpeg"
               class="card-img-top"
               alt="viacom image"
             />
 
-            <div class="container-fluid vp-card bg-dark">
+            <div class="container-fluid vp-card bg-dark h-100">
               <h6 class="vp-title">Shoot Anywhere In India</h6>
-              <small>
+              <small class="sm-size">
                 If you are looking to produce a video far from your approach,
                 such as country, state, city, or even far from your locality. By
                 Buying this package with a complete media solution, we provide
@@ -592,7 +529,8 @@
                 revolution of video production services without any
                 hassle.</small
               >
-
+            </div>
+            <div class="container">
               <div class="d-grid gap-2 vp-btn">
                 <a class="btn btn-outline-info btn-sm" href="http://"
                   >+ Create video</a
@@ -602,15 +540,15 @@
           </div>
         </div>
         <div class="col-lg-2 col-sm-6 video-card">
-          <div class="card h-100" id="">
+          <div class="card h-100 bg-dark" id="">
             <img
               src="images/vp2.jpeg"
               class="card-img-top"
               alt="viacom image"
             />
-            <div class="container-fluid vp-card bg-dark">
+            <div class="container-fluid vp-card bg-dark h-100">
               <h6 class="vp-title">Single Set Up</h6>
-              <small>
+              <small class="sm-size">
                 Single-camera setup is for your frugal budget because we provide
                 budget-friendly production services without any unwanted hassle
                 so if you are looking to promote your company or product on a
@@ -618,7 +556,8 @@
                 quality video at the minimum budget from beyond your
                 expectations!</small
               >
-
+            </div>
+            <div class="container">
               <div class="d-grid gap-2 vp-btn">
                 <a class="btn btn-outline-info btn-sm" href="http://"
                   >+ Create video</a
@@ -628,24 +567,23 @@
           </div>
         </div>
         <div class="col-lg-2 col-sm-6 video-card">
-          <div class="card h-100" id="">
+          <div class="card h-100 bg-dark" id="">
             <img
               src="images/vp3.jpeg"
               class="card-img-top"
               alt="viacom image"
             />
-            <div class="container-fluid vp-card bg-dark">
+            <div class="container-fluid vp-card bg-dark h-100">
               <h6 class="vp-title">Multi Camera Set Up</h6>
-              <small>
-                <br />
+              <small class="sm-size">
                 &quot;A big production needs big warriors! Are you worried about
                 multicam setup? Have looked everywhere for your requirements but
                 didn&#x27;t get the perfect solution? If you read this article
                 you might be at the right place. We are the company who provides
                 the video services for multicam setup.&quot;</small
               >
-              <br />
-              <br />
+            </div>
+            <div class="container">
               <div class="d-grid gap-2 vp-btn">
                 <a class="btn btn-outline-info btn-sm" href="http://"
                   >+ Create video</a
@@ -655,27 +593,22 @@
           </div>
         </div>
         <div class="col-lg-2 col-sm-6 video-card">
-          <div class="card h-100" id="">
+          <div class="card h-100 bg-dark" id="">
             <img
               src="images/vp4.jpeg"
               class="card-img-top"
               alt="viacom image"
             />
-            <div class="container-fluid vp-card bg-dark">
+            <div class="container-fluid vp-card bg-dark h-100">
               <h6 class="vp-title">Multi Projects</h6>
-              <small>
+              <small class="sm-size">
                 Multi project refers to multiple video shoots at a time. We have
                 a big team to conduct such shoots and a number of equipment
                 which make anything possible. These projects include event
                 coverage, training videos and video series.
-                <br />
-                <br />
-                <br />
-                <br />
-
-                <br
-              /></small>
-
+              </small>
+            </div>
+            <div class="container">
               <div class="d-grid gap-2 vp-btn">
                 <a class="btn btn-outline-info btn-sm" href="http://"
                   >+ Create video</a
@@ -685,15 +618,15 @@
           </div>
         </div>
         <div class="col-lg-2 col-sm-6 video-card">
-          <div class="card h-100" id="">
+          <div class="card h-100 bg-dark" id="">
             <img
               src="images/vp5.jpeg"
               class="card-img-top"
               alt="viacom image"
             />
-            <div class="container-fluid vp-card bg-dark">
+            <div class="container-fluid vp-card bg-dark h-100">
               <h6 class="vp-title">Direct Pro Shoot</h6>
-              <small>
+              <small class="sm-size">
                 Directed pro shoots include A to Z production in accordance with
                 your requirements. This product includes a director for a right
                 vision of your video, music specialist, camera professional
@@ -701,8 +634,8 @@
                 audios,script writer,video editor.You are free for elements and
                 add any other services.
               </small>
-              <br />
-              <br />
+            </div>
+            <div class="container">
               <div class="d-grid gap-2 vp-btn">
                 <a class="btn btn-outline-info btn-sm" href="http://"
                   >+ Create video</a
@@ -712,22 +645,22 @@
           </div>
         </div>
         <div class="col-lg-2 col-sm-6 video-card">
-          <div class="card h-100" id="">
+          <div class="card h-100 bg-dark" id="">
             <img
               src="images/vp6.jpeg"
               class="card-img-top"
               alt="viacom image"
             />
-            <div class="container-fluid vp-card bg-dark">
+            <div class="container-fluid vp-card bg-dark h-100">
               <h6 class="vp-title">Pro Video Edit</h6>
-              <small>
+              <small class="sm-size">
                 Your raw footage is ready but you don&#x27;t have an editor or
                 you want to hire an editor. We provide services for pro video
                 editing. We have a team of professional video editors and the
                 upgraded technology based tools.
-                <br /><br /><br /><br /><br /><br
-              /></small>
-
+              </small>
+            </div>
+            <div class="container">
               <div class="d-grid gap-2 vp-btn">
                 <a class="btn btn-outline-info btn-sm" href="http://"
                   >+ Create video</a
@@ -821,7 +754,7 @@
           <div class="container-fluid bussiness-card">
             <h5 class="vp-title">Reforce</h5>
             <h5 class="vp-title-1">186 Videos, 92 Shoots</h5>
-            <small>
+            <small class="">
               We are the in-house agency for Reforce and have produced
               high-quality brand videos, commercials for both tv and digital
               platforms, social media and other brands promotional content.
@@ -839,7 +772,7 @@
           <div class="container-fluid bussiness-card">
             <h5 class="vp-title">Shriram Pistons & Rings</h5>
             <h5 class="vp-title-1">247 Videos, 150 Shoots</h5>
-            <small>
+            <small class="text-start">
               We have produced numerous high-quality videos for Shriram Rings
               &amp; Pistons over a course of 1 year including corporate videos,
               training and safety videos, process videos and induction videos.
@@ -950,58 +883,30 @@
 
       <div class="row row-cols-2 justify-content-center">
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/West.jpg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/West.jpg" class="card-img-top" alt="viacom image" />
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/Central.jpg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img
+            src="images/Central.jpg"
+            class="card-img-top"
+            alt="viacom image"
+          />
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/North.jpg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/North.jpg" class="card-img-top" alt="viacom image" />
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/South.jpg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/South.jpg" class="card-img-top" alt="viacom image" />
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/East.jpg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/East.jpg" class="card-img-top" alt="viacom image" />
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/Abroad.jpg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img
+            src="images/Abroad.jpg"
+            class="card-img-top"
+            alt="viacom image"
+          />
         </div>
       </div>
       <br />
@@ -1022,74 +927,66 @@
 
       <div class="row row-cols-2 justify-content-md-center">
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/explore1.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img
+            src="images/explore1.jpeg"
+            class="card-img-top"
+            alt="viacom image"
+          />
+
           <h6 class="video-card-bottom">Automobile</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/explore2.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img
+            src="images/explore2.jpeg"
+            class="card-img-top"
+            alt="viacom image"
+          />
+
           <h6 class="video-card-bottom">Sales & Marketing</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/explore3.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img
+            src="images/explore3.jpeg"
+            class="card-img-top"
+            alt="viacom image"
+          />
+
           <h6 class="video-card-bottom">Event Coverage</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/explore4.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img
+            src="images/explore4.jpeg"
+            class="card-img-top"
+            alt="viacom image"
+          />
+
           <h6 class="video-card-bottom">Fashion & Lifestyle</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/explore5.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img
+            src="images/explore5.jpeg"
+            class="card-img-top"
+            alt="viacom image"
+          />
+
           <h6 class="video-card-bottom">Graphics & Animation</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 video-card">
-          <div class="card" id="">
-            <img
-              src="images/explore6.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img
+            src="images/explore6.jpeg"
+            class="card-img-top"
+            alt="viacom image"
+          />
+
           <h6 class="video-card-bottom">Advertising</h6>
           <small>Know more</small>
         </div>
       </div>
-
-      <br />
     </div>
     <br /><br /><br />
     <!-- subscription cards-->
@@ -1109,68 +1006,38 @@
 
       <div class="row row-cols-2 justify-content-center">
         <div class="col-lg-2 col-md-4 col-sm-4 video-card">
-          <div class="card" id="">
-            <img
-              src="images/sub1.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/sub1.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Standard Video Package</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 video-card">
-          <div class="card" id="">
-            <img
-              src="images/sub2.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/sub2.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Premium Video Package</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 video-card">
-          <div class="card" id="">
-            <img
-              src="images/sub3.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/sub3.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Basic Video Package</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 video-card">
-          <div class="card" id="">
-            <img
-              src="images/sub4.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/sub4.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Video Series</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 video-card">
-          <div class="card" id="">
-            <img
-              src="images/sub5.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/sub5.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Ultimate Video Package</h6>
           <small>Know more</small>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 video-card">
-          <div class="card" id="">
-            <img
-              src="images/sub6.jpeg"
-              class="card-img-top"
-              alt="viacom image"
-            />
-          </div>
+          <img src="images/sub6.jpeg" class="card-img-top" alt="viacom image" />
+
           <h6 class="video-card-bottom">Training Video Package</h6>
           <small>Know more</small>
         </div>
